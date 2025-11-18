@@ -38,7 +38,7 @@ const Header = () => {
                     top: isScroll ? 0 : "10px",
                 }} className="navbar navbar-expand-lg">
                     <div className="container-fluid">
-                        <a className="navbar-brand text-light" href="#home">Portifolio</a>
+                        <a className="navbar-brand text-light" href="#home">Portfolio</a>
                         <button ref={navbarCollapsedRef} onClick={() => {
                             setIsScroll(window.scrollY !== 0 ? true : !isScroll); handleCollpaseValue()
                         }}
@@ -67,14 +67,9 @@ const Header = () => {
                                         <li className="nav-item icon-link">
                                             <a className="nav-link" href="https://linkedin.com/in/mariam-hagras"  rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} /></a>
                                         </li>
+                                    
                                         <li className="nav-item icon-link">
-                                            <a className="nav-link" href="#facebook"><FontAwesomeIcon icon={faFacebookF} /></a>
-                                        </li>
-                                        <li className="nav-item icon-link">
-                                            <a className="nav-link" href="#instagram"><FontAwesomeIcon icon={faInstagram} /></a>
-                                        </li>
-                                        <li className="nav-item icon-link">
-                                            <a className="nav-link" href="#" rel="noreferrer" target="_blank">
+                                            <a className="nav-link" href="https://github.com/mariam123hagras" rel="noreferrer" target="_blank">
                                                 <FontAwesomeIcon icon={faGithub} />
                                             </a>
                                         </li>

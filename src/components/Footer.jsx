@@ -11,14 +11,9 @@ const Footer=()=>{
                         <li className="nav-item icon-link">
                             <a className="nav-link" href="#linkedin"><FontAwesomeIcon icon={faLinkedinIn} /></a>
                         </li>
+                        
                         <li className="nav-item icon-link">
-                            <a className="nav-link" href="#facebook"> <FontAwesomeIcon icon={faFacebookF} /></a>
-                        </li>
-                        <li className="nav-item icon-link">
-                            <a className="nav-link" href="#instagram"><FontAwesomeIcon icon={faInstagram} /></a>
-                        </li>
-                        <li className="nav-item icon-link">
-                            <a className="nav-link" href="#" rel="noreferrer" target="_blank">
+                            <a className="nav-link" href="https://github.com/mariam123hagras" rel="noreferrer" target="_blank">
                              <FontAwesomeIcon icon={faGithub} />
                             </a>
                         </li>
